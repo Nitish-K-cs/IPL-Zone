@@ -1,0 +1,54 @@
+{
+    "teams": [
+        {
+            "cover": "/teams/Arsenal.png", 
+            "title": "Chennai Super Kings",
+            "search": "CSK"
+        }, 
+        {
+            "cover": "/teams/AstonVilla.png", 
+            "title": "Delhi Capitals",
+            "search": "DC"
+        },
+        {
+            "cover": "/teams/Bournemouth.png", 
+            "title": "Gujrat Titans",
+            "search": "GT"
+        },
+        {
+            "cover": "/teams/Brentford.png", 
+            "title": "Kolkata Knight Riders",
+            "search": "KKR"
+        },
+        {
+            "cover": "/teams/Brighton.png", 
+            "title": "Lucknow Super Giants",
+            "search": "LSG"
+        },
+        {
+            "cover": "/teams/Chelsea.png", 
+            "title": "Mumbai Indians",
+            "search": "MI"
+        },
+        {
+            "cover": "/teams/CrystalPalace.png", 
+            "title": "Punjab Kings",
+            "search": "PBKS"
+        }, 
+        {
+            "cover": "/teams/Everton.png", 
+            "title": "Royal Challengers Bangalore",
+            "search": "RCB"
+        },
+        {
+            "cover": "/teams/Fulham.png", 
+            "title": "Rajasthan Royals",
+            "search": "RR"
+        },
+        {
+            "cover": "/teams/LeedsUnited.png", 
+            "title": "Sunrisers Hyderabad",
+            "search": "SRH"
+        }
+    ]
+}

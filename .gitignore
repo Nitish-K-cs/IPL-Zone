@@ -1,0 +1,65 @@
+# ==============================
+# Java / Spring Boot
+# ==============================
+
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle (if used)
+.gradle/
+build/
+
+# ==============================
+# IDE files
+# ==============================
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+.vscode/settings.json/
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Environment / Secrets
+# ==============================
+application.properties
+application.yml
+
+# OR if you want to track config but hide secrets:
+# application-prod.properties
+
+# ==============================
+# Database
+# ==============================
+*.sql
+*.db
+
+# ==============================
+# Logs
+# ==============================
+logs/
+*.log
+
+# ==============================
+# Node (if React frontend inside same repo)
+# ==============================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env

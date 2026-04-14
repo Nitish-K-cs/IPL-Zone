@@ -1,0 +1,26 @@
+.nation-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.nation-card {
+  background: #0b1f3a;
+  border-radius: 10px;
+  padding: 30px 15px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.nation-card:hover {
+  background: #52B69A;
+  transform: translateY(-5px);
+}
+
+.nation-name {
+  font-size: 16px;
+}

@@ -1,0 +1,183 @@
+Player,country,team,age,captain,role,sold
+Ruturaj Gaikwad,IND,CSK,26,0,Batting,6cr
+Shivam Dube,IND,CSK,29,0,All rounder,4cr
+Ambati Rayudu,IND,CSK,37,0,Batting,6.75cr
+Devon Conway,NZ,CSK,31,0,Batting,1cr
+Moeen Ali,ENG,CSK,35,0,All rounder,8cr
+MS Dhoni,IND,CSK,41,15,Batting,12cr
+Ravindra Jadeja,IND,CSK,34,0,All rounder,16cr
+Dwaine Pretorius,SA,CSK,33,0,All rounder,50l
+Jagadeesan Narayan,IND,CSK,27,0,Batting,20l
+Dwayne Bravo,WI,CSK,39,0,All rounder,4.40cr
+Mitchell Santner,NZ,CSK,31,0,All rounder,1.90cr
+Chris Jordan,ENG,CSK,34,0,All rounder,3.60cr
+Maheesh Theekshana,SL,CSK,22,0,Bowling,70l
+Simarjeet Singh,IND,CSK,25,0,Bowling,20l
+Mukesh Choudhary,IND,CSK,26,0,Bowling,20l
+Prashant Solanki,IND,CSK,23,0,Bowling,1.20cr
+Matheesha Pathirana,SL,CSK,20,0,Bowling,20l
+Tushar Deshpande,IND,CSK,27,0,Bowling,20l
+David Warner,AUS,DC,36,6,Batting,6.25cr
+Rishabh Pant,IND,DC,25,0,Batting,16cr
+Prithvi Shaw,IND,DC,23,0,Batting,7.50cr
+Mitchell Marsh,AUS,DC,31,0,All rounder,6.50cr
+Rovman Powell,WI,DC,29,0,Batting,2.80cr
+Axar Patel,IND,DC,29,0,All rounder,9cr
+Lalit Yadav,IND,DC,26,0,All rounder,65l
+Shardul Thakur,IND,DC,31,0,All rounder,10.75cr
+Sarfaraz Khan,IND,DC,25,0,Batting,20l
+Kuldeep Yadav,IND,DC,28,0,Bowling,2cr
+Mandeep Singh,IND,DC,31,0,Batting,1.10cr
+Srikar Bharat,IND,DC,29,0,Batting,2cr
+Ripal Patel,IND,DC,27,0,All rounder,20l
+Mustafizur Rahman,BAN,DC,27,0,Bowling,2cr
+Anrich Nortje,SA,DC,29,0,Bowling,6.50cr
+Khaleel Ahmed,IND,DC,25,0,Bowling,5.25cr
+Chetan Sakariya,IND,DC,25,0,Bowling,4.20cr
+Hardik Pandya,IND,GT,29,1,All rounder,15cr
+Shubman Gill,IND,GT,23,0,Batting,8cr
+David Miller,SA,GT,33,0,Batting,3cr
+Wriddhiman Saha,IND,GT,38,0,Batting,1.90cr
+Rahul Tewatia,IND,GT,29,0,All rounder,9cr
+Matthew Wade,AUS,GT,35,0,Batting,2.40cr
+Sai Sudharsan,IND,GT,21,0,Batting,20l
+Abhinav Manohar,IND,GT,28,0,Batting,2.60cr
+Rashid Khan,AFG,GT,24,0,All rounder,15cr
+Vijay Shankar,IND,GT,32,0,All rounder,1.40cr
+Lockie Ferguson,NZ,GT,31,0,Bowling,10cr
+Alzarri Joseph,WI,GT,26,0,Bowling,2.40cr
+Pradeep Sangwan,IND,GT,32,0,Bowling,20l
+Mohammad Shami,IND,GT,32,0,Bowling,6.25cr
+Yash Dayal,IND,GT,25,0,Bowling,3.20cr
+Sai Kishore,IND,GT,26,0,Bowling,3cr
+Varun Aaron,IND,GT,33,0,Bowling,50l
+Darshan Nalkande,IND,GT,24,0,Bowling,20l
+Shreyas Iyer,IND,KKR,28,3,Batting,12.25cr
+Nitish Rana,IND,KKR,29,0,Batting,8cr
+Andre Russell,WI,KKR,34,0,All rounder,12cr
+Venkatesh Iyer,IND,KKR,28,0,All rounder,8cr
+Rinku Singh,IND,KKR,25,0,Batting,55l
+Sam Billings,ENG,KKR,31,0,Batting,2cr
+Ajinkya Rahane,IND,KKR,34,0,Batting,1cr
+Sunil Narine,WI,KKR,34,0,All rounder,6cr
+Pat Cummins,AUS,KKR,29,0,All rounder,7.25cr
+Umesh Yadav,IND,KKR,35,0,Bowling,2cr
+Tim Seifert,NZ,KKR,28,0,Batting,50l
+Sheldon Jackson,IND,KKR,36,0,Batting,60l
+B Indrajith,IND,KKR,28,0,Batting,20l
+Varun Chakaravarthy,IND,KKR,31,0,Bowling,8cr
+Rasikh Salam,IND,KKR,22,0,Bowling,20l
+Abhijeet Tomar,IND,KKR,28,0,Batting,40l
+Shivam Mavi,IND,KKR,24,0,All rounder,7.25cr
+Harshit Rana,IND,KKR,21,0,Bowling,20l
+Tim Southee,NZ,KKR,34,0,Bowling,1.50cr
+Anukul Roy,IND,KKR,24,0,Bowling,20l
+K L Rahul,IND,LSG,30,3,Batting,17cr
+Quinton De Kock,SA,LSG,30,0,Batting,6.75cr
+Deepak Hooda,IND,LSG,27,0,All rounder,5.75cr
+Krunal Pandya,IND,LSG,31,0,All rounder,8.25cr
+Ayush Badoni,IND,LSG,23,0,All rounder,20l
+Marcus Stoinis,AUS,LSG,33,0,All rounder,9.20cr
+Manish Pandey,IND,LSG,33,0,Batting,4.60cr
+Evin Lewis,WI,LSG,31,0,Batting,2cr
+Jason Holder,WI,LSG,31,0,All rounder,8.75cr
+Dushmantha Chameera,SL,LSG,31,0,Bowling,2cr
+Mohsin Khan,IND,LSG,24,0,Bowling,20l
+Avesh Khan,IND,LSG,26,0,Bowling,10cr
+Manan Vohra,IND,LSG,29,0,Batting,20l
+Karan Sharma,IND,LSG,24,0,All rounder,20l
+Ravi Bishnoi,IND,LSG,22,0,Bowling,4cr
+Krishnappa Gowtham,IND,LSG,34,0,All rounder,90l
+Andrew Tye,AUS,LSG,36,0,Bowling,1cr
+Ishan Kishan,IND,MI,24,0,Batting,15.25cr
+Tilak Varma,IND,MI,20,0,Batting,1.70cr
+Suryakumar Yadav,IND,MI,32,0,Batting,8cr
+Rohit Sharma,IND,MI,35,10,Batting,16cr
+Tim David,AUS,MI,27,0,All rounder,8.25cr
+Dewald Brevis,SA,MI,19,0,All rounder,3cr
+Jaydev Unadkat,IND,MI,31,0,Bowling,1.30cr
+Ramandeep Singh,IND,MI,25,0,Batting,20l
+Hrithik Shokeen,IND,MI,22,0,All rounder,20l
+Daniel Sams,AUS,MI,30,0,All rounder,2.60cr
+Sherfane Rutherford,WI,MI,24,0,All rounder,1cr
+Anmolpreet Singh,IND,MI,24,0,Batting,20l
+Murugan Ashwin,IND,MI,32,0,Bowling,1.60cr
+Fabian Allen,WI,MI,27,0,All rounder,75l
+Kumar Kartikeya Singh,IND,MI,25,0,All rounder,20l
+Tristan Stubbs,SA,MI,22,0,Batting,20l
+Jasprit Bumrah,IND,MI,29,0,Bowling,12cr
+Riley Meredith,AUS,MI,26,0,Bowling,1cr
+Tymal Mills,ENG,MI,30,0,Bowling,1.50cr
+Basil Thampi,IND,MI,29,0,Bowling,30l
+Mayank Markande,IND,MI,25,0,Bowling,65l
+Shikhar Dhawan,IND,PK,37,0,Batting,8.25cr
+Liam Livingstone,ENG,PK,29,0,All rounder,11.50cr
+Jonny Bairstow,ENG,PK,33,0,Batting,6.75cr
+Jitesh Sharma,IND,PK,29,0,Batting,20l
+Bhanuka Rajapaksa,SL,PK,31,0,Batting,50l
+Mayank Agarwal,IND,PK,32,1,Batting,14cr
+Shahrukh Khan,IND,PK,27,0,Batting,9cr
+Rahul Chahar,IND,PK,23,0,Bowling,5.25cr
+Odean Smith,WI,PK,26,0,All rounder,6cr
+Kagiso Rabada,SA,PK,27,0,Bowling,9.25cr
+Rishi Dhawan,IND,PK,33,0,All rounder,55l
+Harpreet Brar,IND,PK,27,0,All rounder,3.80cr
+Arshdeep Singh,IND,PK,24,0,Bowling,4cr
+Prabhsimran Singh,IND,PK,22,0,Batting,60l
+Rajangad Bawa,IND,PK,20,0,All rounder,2cr
+Vaibhav Arora,IND,PK,25,0,Bowling,2cr
+Prerak Mankad,IND,PK,28,0,Batting,20l
+Nathan Ellis,AUS,PK,28,0,Bowling,75l
+Sandeep Sharma,IND,PK,29,0,Bowling,50l
+Faf Du Plessis,SA,RCB,38,1,Batting,7cr
+Virat Kohli,IND,RCB,34,0,Batting,15cr
+Rajat Patidar,IND,RCB,29,0,Batting,20l
+Dinesh Karthik,IND,RCB,37,0,Batting,5.50cr
+Glenn Maxwell,AUS,RCB,34,0,All rounder,11cr
+Shahbaz Ahmed,IND,RCB,28,0,All rounder,2.40cr
+Anuj Rawat,IND,RCB,23,0,Batting,3.20cr
+Mahipal Lomror,IND,RCB,23,0,All rounder,95l
+Suyash S Prabhudessai,IND,RCB,25,0,Batting,30l
+Harshal Patel,IND,RCB,32,0,All rounder,10.75cr
+Wanindu Hasaranga,SL,RCB,25,0,All rounder,10.75cr
+Mohammed Siraj,IND,RCB,29,0,Bowling,7cr
+Josh Hazlewood,AUS,RCB,32,0,Bowling,7.75cr
+David Willey,ENG,RCB,33,0,All rounder,2cr
+Akash Deep,IND,RCB,26,0,Bowling,20l
+Jos Buttler,ENG,RR,32,0,Batting,10cr
+Sanju Samson,IND,RR,28,2,Batting,14cr
+Devdutt Padikkal,IND,RR,22,0,Batting,7.75cr
+Shimron Hetmyer,WI,RR,26,0,Batting,8.50cr
+Yashasvi Jaiswal,IND,RR,21,0,Batting,4cr
+Ravichandran Ashwin,IND,RR,36,0,All rounder,5cr
+Riyan Parag,IND,RR,21,0,All rounder,3.80cr
+Trent Boult,NZ,RR,33,0,Bowling,8cr
+Daryl Mitchell,NZ,RR,31,0,All rounder,75l
+James Neesham,NZ,RR,32,0,All rounder,1.50cr
+Rassie van der Dussen,SA,RR,34,0,Batting,1cr
+Karun Nair,IND,RR,31,0,Batting,1.40cr
+Obed McCoy,WI,RR,26,0,Bowling,75l
+Prasidh Krishna,IND,RR,27,0,Bowling,10cr
+Yuzvendra Chahal,IND,RR,32,0,Bowling,6.50cr
+Navdeep Saini,IND,RR,30,0,Bowling,2.60cr
+Nathan Coulter-Nile,AUS,RR,35,0,Bowling,2cr
+Kuldeep Sen,IND,RR,26,0,Bowling,20l
+Abhishek Sharma,IND,SRH,22,0,All rounder,6.50cr
+Rahul Tripathi,IND,SRH,32,0,Batting,8.5cr
+Aiden Markram,SA,SRH,28,0,All rounder,2.60cr
+Nicholas Pooran,WI,SRH,27,0,Batting,10.75cr
+Kane Williamson,NZ,SRH,32,2,Batting,14cr
+Washington Sundar,IND,SRH,23,0,All rounder,8.75cr
+Shashank Singh,IND,SRH,31,0,Batting,20l
+Romario Shepherd,WI,SRH,28,0,All rounder,7.75cr
+Priyam Garg,IND,SRH,22,0,Batting,20l
+Bhuvneshwar Kumar,IND,SRH,33,0,Bowling,4.20cr
+Shreyas Gopal,IND,SRH,29,0,All rounder,75l
+Marco Jansen,SA,SRH,22,0,All rounder,4.20cr
+Sean Abbott,AUS,SRH,31,0,All rounder,2.40cr
+Kartik Tyagi,IND,SRH,22,0,Bowling,4cr
+Abdul Samad,IND,SRH,21,0,All rounder,4cr
+Umran Malik,IND,SRH,23,0,Bowling,4cr
+Fazalhaq Farooqi,AFG,SRH,22,0,Bowling,50l
+Jagadeesha Suchith,IND,SRH,29,0,All rounder,20l
+T Natarajan,IND,SRH,31,0,Bowling,4cr

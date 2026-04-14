@@ -1,0 +1,19 @@
+{
+    "positions": [
+        {
+            "cover": "/positions/Goalie.jpeg", 
+            "title": "Batting", 
+            "search": "Batting"
+        }, 
+        {
+            "cover": "/positions/Defender.avif", 
+            "title": "Bowling", 
+            "search": "Bowling"
+        },
+        {
+            "cover": "/positions/Midfielder.jpeg", 
+            "title": "All rounder", 
+            "search": "All rounder"
+        }
+    ]
+}

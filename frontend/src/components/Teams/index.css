@@ -1,0 +1,30 @@
+/* Minimal blank component CSS for route check */
+.teams-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.team-card {
+  text-decoration: none;
+}
+
+.team-placeholder {
+  height: 120px;
+  background: #0b1f3a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.team-placeholder:hover {
+  background: #52B69A;
+  transform: translateY(-5px);
+}

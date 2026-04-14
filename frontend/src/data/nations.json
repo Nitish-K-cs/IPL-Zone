@@ -1,0 +1,13 @@
+{
+    "nations": [
+        { "code": "IND", "name": "India", "search": "IND" },
+        { "code": "ENG", "name": "England", "search": "ENG" },
+        { "code": "NZ", "name": "New Zealand", "search": "NZ" },
+        { "code": "WI", "name": "West Indies", "search": "WI" },
+        { "code": "SA", "name": "South Africa", "search": "RSA" },
+        { "code": "BAN", "name": "Bangladesh", "search": "BAN" },
+        { "code": "AUS", "name": "Australia", "search": "AUS" },
+        { "code": "SL", "name": "Sri Lanka", "search": "LKA" },
+        { "code": "AFG", "name": "Afghanistan", "search": "AFG" }
+    ]
+}
