@@ -33,7 +33,9 @@
 }
 
 .hero-text h1 span {
-  color: #000;
+    background: linear-gradient(90deg, #f59e0b, #ef4444, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Paragraph */
@@ -46,24 +48,26 @@
 
 /* Button */
 .cta-button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   padding: 14px 28px;
-  background: linear-gradient(135deg, #52B69A, #34d399);
+  background: linear-gradient(135deg, #f59e0b, #ec70c3);
   color: white;
   text-decoration: none;
-  border-radius: 8px;
-  font-weight: 600;
-  transition: 0.3s;
+  border-radius: 10px;
+  font-weight: 700;
+  box-shadow: 0 4px 20px rgba(101, 54, 54, 0.4);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(239,68,68,0.5);
 }
 
 /* Right image */
 .hero-image img {
   width: 400px;
   opacity: 0.85;
-  filter: grayscale(100%);
 }

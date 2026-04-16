@@ -1,52 +1,52 @@
 {
     "teams": [
         {
-            "cover": "/teams/Arsenal.png", 
+            "cover": "/teams/cskk.png", 
             "title": "Chennai Super Kings",
             "search": "CSK"
         }, 
         {
-            "cover": "/teams/AstonVilla.png", 
+            "cover": "/teams/delhi.png", 
             "title": "Delhi Capitals",
             "search": "DC"
         },
         {
-            "cover": "/teams/Bournemouth.png", 
+            "cover": "/teams/gt.svg", 
             "title": "Gujrat Titans",
             "search": "GT"
         },
         {
-            "cover": "/teams/Brentford.png", 
+            "cover": "/teams/kolkata.png", 
             "title": "Kolkata Knight Riders",
             "search": "KKR"
         },
         {
-            "cover": "/teams/Brighton.png", 
+            "cover": "/teams/lsg.png", 
             "title": "Lucknow Super Giants",
             "search": "LSG"
         },
         {
-            "cover": "/teams/Chelsea.png", 
+            "cover": "/teams/mi.png", 
             "title": "Mumbai Indians",
             "search": "MI"
         },
         {
-            "cover": "/teams/CrystalPalace.png", 
+            "cover": "/teams/pbks.svg", 
             "title": "Punjab Kings",
             "search": "PBKS"
         }, 
         {
-            "cover": "/teams/Everton.png", 
+            "cover": "/teams/bangalore.png", 
             "title": "Royal Challengers Bangalore",
             "search": "RCB"
         },
         {
-            "cover": "/teams/Fulham.png", 
+            "cover": "/teams/rajasthan.webp", 
             "title": "Rajasthan Royals",
             "search": "RR"
         },
         {
-            "cover": "/teams/LeedsUnited.png", 
+            "cover": "/teams/hyderabad.webp", 
             "title": "Sunrisers Hyderabad",
             "search": "SRH"
         }

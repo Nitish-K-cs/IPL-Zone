@@ -1,36 +1,44 @@
 import './index.css';
-import LogoPL from '../../assets/images/PL.webp';
-import { Outlet, Link } from 'react-router-dom';
+import LogoPL from '../../assets/images/nav-logo.webp';
+import { Outlet, Link, useLocation } from 'react-router-dom';
 
-const Layout = () => { 
+const Layout = () => {
+    const { pathname } = useLocation();
+
+    const links = [
+        { to: '/', label: 'Home', cls: 'home' },
+        { to: '/teams', label: 'Teams', cls: 'teams' },
+        { to: '/nation', label: 'Nations', cls: 'nations' },
+        { to: '/search', label: 'Players', cls: 'players' },
+        { to: '/position', label: 'Positions', cls: 'positions' },
+    ];
+
     return (
         <div className="app">
-            
-            {/* Navbar */}
             <nav className="navbar">
-                
-                {/* Logo */}
                 <div className="logo">
                     <img src={LogoPL} alt="Logo" />
-                    <span>Premier Zone</span>
+                    <span>IPL Zone</span>
                 </div>
 
-                {/* Links */}
                 <ul className="nav-links">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/teams">Teams</Link></li>
-                    <li><Link to="/nation">Nations</Link></li>
-                    <li><Link to="/search">Players</Link></li>
-                    <li><Link to="/position">Positions</Link></li>
+                    {links.map(({ to, label, cls }) => (
+                        <li key={to}>
+                            <Link
+                                to={to}
+                                className={`nav-link ${cls} ${pathname === to ? 'active' : ''}`}
+                            >
+                                {label}
+                                {pathname === to && <span className="active-dot" />}
+                            </Link>
+                        </li>
+                    ))}
                 </ul>
-
             </nav>
 
-            {/* Page Content */}
             <div className="page-content">
                 <Outlet />
             </div>
-
         </div>
     );
 };

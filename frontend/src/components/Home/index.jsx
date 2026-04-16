@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './index.css';
-import LogoPL from '../../assets/images/PL.webp';
+import LogoPL from '../../assets/images/IPL-logo.png';
 
 const Home = () => {
   return (
@@ -12,12 +12,12 @@ const Home = () => {
         <span className="badge">SEASON 2024/25 MANAGEMENT</span>
 
         <h1>
-          Welcome to <span>PL</span>
+          Welcome to <span>IPL</span>
         </h1>
 
         <p>
           The elite digital command center for managing the world’s most 
-          competitive football league assets. Precision data, professional 
+          competitive Cricket league assets. Precision data, professional 
           scouting, and strategic oversight.
         </p>
 

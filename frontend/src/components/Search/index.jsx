@@ -1,42 +1,49 @@
-import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import "./index.css";
+import { useState, useRef, useEffect } from 'react';
+import './index.css';
 
-const Search = () => {
-    const [searchQuery, setSearchQuery] = useState('');
-    const navigate = useNavigate(); // ✅
+const SearchBar = ({ value, onChange, placeholder = "Search..." }) => {
+  const [open, setOpen] = useState(false);
+  const inputRef = useRef(null);
 
-    const handleSearchChange = (event) => {
-        setSearchQuery(event.target.value);
-    };
+  const toggle = () => {
+    setOpen(prev => !prev);
+    if (!open) setTimeout(() => inputRef.current?.focus(), 280);
+  };
 
-    const handleGoButtonClick = () => {
-        if (!searchQuery.trim()) return;
+  // Close on Escape
+  useEffect(() => {
+    const handler = (e) => { if (e.key === 'Escape') setOpen(false); };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, []);
 
-        // ✅ Navigate without reload
-        navigate(`/search/${encodeURIComponent(searchQuery)}`);
-    };
-
-    return (
-        <div className="search-page">
-
-            <h1 className="page-title">Search Players</h1>
-
-            <div className="search-bar">
-                <input
-                    type="text"
-                    placeholder="Search for players..."
-                    value={searchQuery}
-                    onChange={handleSearchChange}
-                />
-
-                <button onClick={handleGoButtonClick}>
-                    Search
-                </button>
-            </div>
-
-        </div>
-    );
+  return (
+    <div className="search-widget">
+      <div className={`search-expand ${open ? 'open' : ''}`}>
+        <span className="search-icon-inner">🔍</span>
+        <input
+          ref={inputRef}
+          type="text"
+          placeholder={placeholder}
+          value={value}
+          onChange={onChange}
+        />
+        {value && (
+          <button
+            className="search-clear"
+            onClick={() => onChange({ target: { value: '' } })}
+          >✕</button>
+        )}
+      </div>
+      <button
+        className={`search-toggle ${open ? 'open' : ''}`}
+        onClick={toggle}
+        aria-label="Toggle search"
+      >
+        {open ? '✕' : '🔍'}
+      </button>
+    </div>
+  );
 };
 
-export default Search;
+export default SearchBar;
