@@ -2,12 +2,14 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import "./index.css";
+import SearchBar from '../Search';
 
 const TeamData = () => {
 
   const { team, country, player, role } = useParams();
   console.log("PARAMS:", team, country, player, role);
-  
+
+  const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [playerData, setPlayerData] = useState([]);
@@ -30,6 +32,9 @@ const TeamData = () => {
     }
     else if (role) {
       url = `/api/v1/player?role=${role}`;
+    }
+    else{
+      url = `/api/v1/player`;
     }
 
     if (!url) {
@@ -70,16 +75,30 @@ const TeamData = () => {
     );
   }
 
+  const filteredPlayers = playerData.filter(p =>
+    p.player.toLowerCase().includes(search.toLowerCase())
+  );
+
   return (
     <div className="table-container">
-
-      <h1 className="page-title">
-        {team && `${team} Players`}
-        {country && `${country} Players`}
-        {player && `Search: ${player}`}
-        {role && `${role} Players`}
-      </h1>
-
+      <div className="header-row">
+        <h1 className="play-title">
+          {player
+            ? `Search: ${player}`
+            : team
+            ? `${team} Players`
+            : country
+            ? `${country} Players`
+            : role
+            ? `${role} Players`
+            : "All Players"}
+        </h1>
+        <SearchBar
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+           placeholder="Search players..."
+          />
+      </div>
       <table>
         <thead>
           <tr>
@@ -91,7 +110,7 @@ const TeamData = () => {
         </thead>
 
         <tbody>
-          {playerData.slice(0, playersToShow).map((p, index) => (
+          {filteredPlayers.slice(0, playersToShow).map((p, index) => (
             <tr key={`${p.player}-${index}`}>
               <td>{p.player}</td>
               <td>{p.role}</td>
@@ -102,7 +121,7 @@ const TeamData = () => {
         </tbody>
       </table>
 
-      {playersToShow < playerData.length && (
+      {playersToShow < filteredPlayers.length && (
         <button 
           onClick={() => setPlayersToShow(playersToShow + 10)}
           className="show-more-button"

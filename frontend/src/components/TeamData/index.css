@@ -9,14 +9,26 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
-/* Title */
-.page-title {
-  font-size: 36px;
-  font-weight: 700;
-  color: #0b1f3a;
+.header-row {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* push search to right */
   margin-bottom: 20px;
+}
+
+/* Title */
+.play-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 42px;
+  font-weight: 700;
+  color: #173152;
+  margin-bottom: 30px;
   text-align: center;
 }
+
 
 /* Table */
 table {

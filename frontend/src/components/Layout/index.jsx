@@ -9,7 +9,7 @@ const Layout = () => {
         { to: '/', label: 'Home', cls: 'home' },
         { to: '/teams', label: 'Teams', cls: 'teams' },
         { to: '/nation', label: 'Nations', cls: 'nations' },
-        { to: '/search', label: 'Players', cls: 'players' },
+        { to: '/players', label: 'Players', cls: 'players' },
         { to: '/position', label: 'Positions', cls: 'positions' },
     ];
 

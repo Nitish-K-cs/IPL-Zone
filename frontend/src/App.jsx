@@ -26,8 +26,7 @@ function App() {
           <Route path="position" element={<Position />} />
           <Route path="position/:role" element={<TeamData />} />
 
-          <Route path="search" element={<Search />} />
-          <Route path="search/:player" element={<TeamData />} />
+          <Route path="players" element={<TeamData />}/>
         </Route>
       </Routes>
     </>
