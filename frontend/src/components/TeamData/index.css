@@ -20,6 +20,7 @@
 
 /* Table */
 table {
+  margin-top: 25px;
   width: 100%;
   border-collapse: collapse;
   overflow: hidden;

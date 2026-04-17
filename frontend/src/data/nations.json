@@ -1,13 +1,13 @@
 {
     "nations": [
-        { "code": "IND", "name": "India", "search": "IND" },
-        { "code": "ENG", "name": "England", "search": "ENG" },
-        { "code": "NZ", "name": "New Zealand", "search": "NZ" },
-        { "code": "WI", "name": "West Indies", "search": "WI" },
-        { "code": "SA", "name": "South Africa", "search": "RSA" },
-        { "code": "BAN", "name": "Bangladesh", "search": "BAN" },
-        { "code": "AUS", "name": "Australia", "search": "AUS" },
-        { "code": "SL", "name": "Sri Lanka", "search": "LKA" },
-        { "code": "AFG", "name": "Afghanistan", "search": "AFG" }
+        { "code": "IND", "name": "India", "search": "IND" , "cover": "/nations/india.png"},
+        { "code": "ENG", "name": "England", "search": "ENG" , "cover": "/nations/eng.png" },
+        { "code": "NZ", "name": "New Zealand", "search": "NZ", "cover": "/nations/nz.png" },
+        { "code": "WI", "name": "West Indies", "search": "WI", "cover": "/nations/wi.png" },
+        { "code": "SA", "name": "South Africa", "search": "RSA", "cover": "/nations/sa.png" },
+        { "code": "BAN", "name": "Bangladesh", "search": "BAN", "cover": "/nations/bg.png" },
+        { "code": "AUS", "name": "Australia", "search": "AUS", "cover": "/nations/aus.png" },
+        { "code": "SL", "name": "Sri Lanka", "search": "LKA", "cover": "/nations/sl.png" },
+        { "code": "AFG", "name": "Afghanistan", "search": "AFG", "cover": "/nations/afg.png" }
     ]
 }

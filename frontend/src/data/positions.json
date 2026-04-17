@@ -1,17 +1,17 @@
 {
     "positions": [
         {
-            "cover": "/positions/Goalie.jpeg", 
+            "cover": "/positions/batter.png", 
             "title": "Batting", 
             "search": "Batting"
         }, 
         {
-            "cover": "/positions/Defender.avif", 
+            "cover": "/positions/bowl.jpg", 
             "title": "Bowling", 
             "search": "Bowling"
         },
         {
-            "cover": "/positions/Midfielder.jpeg", 
+            "cover": "/positions/all.jpg", 
             "title": "All rounder", 
             "search": "All rounder"
         }

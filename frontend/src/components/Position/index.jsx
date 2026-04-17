@@ -2,54 +2,57 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
 import positionData from "../../data/positions.json";
+import SearchBar from "../../components/Search";
 
 const Positions = () => {
-
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredPositions, setFilteredPositions] = useState([]);
 
   useEffect(() => {
     const data = positionData.positions || [];
-
     const filtered = data.filter(position =>
       position.title.toLowerCase().includes(searchQuery.toLowerCase())
     );
-
     setFilteredPositions(filtered);
   }, [searchQuery]);
 
-  const handleSearchChange = (event) => {
-    setSearchQuery(event.target.value);
-  };
-
   return (
-    <div className="position-page">
+    <div className="positions-page">
 
-      <h1 className="page-title">Positions</h1>
-
-      <div className="search-bar">
-        <input
-          type="text"
-          placeholder="Search for positions"
+      <div className="page-header">
+        <div className="title-block">
+          <span className="title-eyebrow">Cricket</span>
+          <h1 className="page-title">Player <span>Positions</span></h1>
+        </div>
+        <SearchBar
           value={searchQuery}
-          onChange={handleSearchChange}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="Search positions..."
         />
       </div>
 
-      <div className="position-container">
-        {filteredPositions.map((position, idx) => (
-          <Link
-            key={idx}
-            to={`/position/${encodeURIComponent(position.search)}`}
-            className="position-card"
-          >
-            {/* Placeholder instead of image */}
-            <div className="position-placeholder">
-              {position.title}
-            </div>
-          </Link>
-        ))}
-      </div>
+      {filteredPositions.length === 0 ? (
+        <div className="no-results">
+          <span>😢</span>
+          <p>No positions found for "<strong>{searchQuery}</strong>"</p>
+        </div>
+      ) : (
+        <div className="positions-container">
+          {filteredPositions.map((position, idx) => (
+            <Link
+              key={idx}
+              to={`/position/${encodeURIComponent(position.search)}`}
+              className="position-card"
+            >
+              <div className="position-logo-wrap">
+                <img src={position.cover} alt={position.title} className="position-logo" />
+              </div>
+              <div className="position-divider" />
+              <h3 className="position-title">{position.title}</h3>
+            </Link>
+          ))}
+        </div>
+      )}
 
     </div>
   );

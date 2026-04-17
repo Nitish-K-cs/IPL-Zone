@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import "./index.css";
 import nationData from "../../data/nations.json";
+import SearchBar from "../../components/Search";
 
 const Nations = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -14,35 +15,43 @@ const Nations = () => {
     setFilteredNations(filtered);
   }, [searchQuery]);
 
-  const handleSearchChange = (event) => {
-    setSearchQuery(event.target.value);
-  };
-
   return (
-    <div className="nation-page">
+    <div className="nations-page">
 
-      <h1 className="page-title">Nations</h1>
-
-      <div className="search-bar">
-        <input
-          type="text"
-          placeholder="Search for countries"
+      <div className="page-header">
+        <div className="title-block">
+          <span className="title-eyebrow">Cricket</span>
+          <h1 className="page-title">Playing <span>Nations</span></h1>
+        </div>
+        <SearchBar
           value={searchQuery}
-          onChange={handleSearchChange}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          placeholder="Search countries..."
         />
       </div>
 
-      <div className="nation-container">
-        {filteredNations.map((country, idx) => (
-          <Link
-            key={idx}
-            to={`/nation/${encodeURIComponent(country.search)}`}
-            className="nation-card"
-          >
-            <p className="nation-name">{country.name}</p>
-          </Link>
-        ))}
-      </div>
+      {filteredNations.length === 0 ? (
+        <div className="no-results">
+          <span>😢</span>
+          <p>No nations found for "<strong>{searchQuery}</strong>"</p>
+        </div>
+      ) : (
+        <div className="nations-container">
+          {filteredNations.map((country, idx) => (
+            <Link
+              key={idx}
+              to={`/nation/${encodeURIComponent(country.search)}`}
+              className="nation-card"
+            >
+              <div className="nation-logo-wrap">
+                <img src={country.cover} alt={country.name} className="nation-logo" />
+              </div>
+              <div className="nation-divider" />
+              <h3 className="nation-title">{country.name}</h3>
+            </Link>
+          ))}
+        </div>
+      )}
 
     </div>
   );
